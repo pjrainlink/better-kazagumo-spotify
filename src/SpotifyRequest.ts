@@ -1,6 +1,6 @@
 import { fetch } from 'undici';
 import { SpotifyOptions } from './Plugin';
-import { KazagumoError } from 'kazagumo';
+import { KazagumoError } from 'better-kazagumo';
 
 const BASE_URL = 'https://api.spotify.com/v1';
 

@@ -6,7 +6,7 @@ import {
   KazagumoError,
   KazagumoTrack,
   SearchResultTypes,
-} from 'kazagumo';
+} from 'better-kazagumo';
 import { RequestManager } from './RequestManager';
 import undici from 'undici';
 

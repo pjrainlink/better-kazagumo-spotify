@@ -1,6 +1,6 @@
-# kazagumo-spotify
+# better-kazagumo-spotify
 
-## A spotify plugin for kazagumo module
+## A spotify plugin for better kazagumo module
 
 ## Accepted query
 
@@ -13,17 +13,17 @@ String; `mirror heart`
 
 ## Installation
 
-> npm i kazagumo-spotify
+> npm i https://github.com/ProjectRainyLink/better-kazagumo-spotify.git
 
 ## Links
 
-- Kazagumo; [npm](https://www.npmjs.com/package/kazagumo) [github](https://github.com/Takiyo0/Kazagumo)
-- Kazagumo-spotify; [npm](https://www.npmjs.com/package/kazagumo-spotify)
+- better-kazagumo; [github](https://github.com/ProjectRainyLink/better-kazagumo)
+- better-kazagumo-spotify; [github](https://github.com/ProjectRainyLink/better-kazagumo-spotify)
 
 #### How to
 
 ```js
-const { Kazagumo } = require('kazagumo');
+const { Kazagumo } = require('better-kazagumo');
 const Spotify = require('better-kazagumo-spotify');
 
 const kazagumo = new Kazagumo(

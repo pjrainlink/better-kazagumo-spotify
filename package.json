@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/Takiyo0/kazagumo-spotify#readme",
   "dependencies": {
-    "kazagumo": "^2.1.6",
+    "better-kazagumo": "github:ProjectRainyLink/better-kazagumo",
     "undici": "^5.5.1"
   },
   "devDependencies": {
