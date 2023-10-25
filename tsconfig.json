@@ -1,4 +1,15 @@
 {
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*",
+    "test",
+    "node_modules/**",
+    "test/**",
+    "/node_modules/"
+  ],
   "compilerOptions": {
     "target": "es2016",
     "module": "commonjs",
@@ -9,6 +20,7 @@
     "strict": true,
     "skipLibCheck": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "**/__tests__/*", "test"]
+  "rules": {
+    "unified-signatures": false
+  },
 }
